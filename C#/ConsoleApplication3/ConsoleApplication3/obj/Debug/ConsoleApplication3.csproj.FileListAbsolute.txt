@@ -1,0 +1,6 @@
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/ConsoleApplication3/bin/Debug/ConsoleApplication3.exe
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/ConsoleApplication3/bin/Debug/ConsoleApplication3.pdb
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/ConsoleApplication3/obj/Debug/ConsoleApplication3.csprojAssemblyReference.cache
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/ConsoleApplication3/obj/Debug/ConsoleApplication3.csproj.CoreCompileInputs.cache
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/ConsoleApplication3/obj/Debug/ConsoleApplication3.exe
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/ConsoleApplication3/obj/Debug/ConsoleApplication3.pdb

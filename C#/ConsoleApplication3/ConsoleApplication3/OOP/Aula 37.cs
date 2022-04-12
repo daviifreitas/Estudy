@@ -4,7 +4,7 @@ namespace ConsoleApplication01.OOP
 {
     public class Aula_37
     {
-        public static void Main(string[] args)
+        public static void Ma(string[] args)
         {
             Derivada2 derivada2 = new Derivada2();
             

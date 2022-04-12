@@ -9,6 +9,7 @@ namespace ConsoleApplication01.Atividades_Raoni
         public string disciplina;
         public string bloco;
         public bool disponivel = true;
+        public Professor[] professores;
         
         public Turma(){}
 
@@ -18,6 +19,15 @@ namespace ConsoleApplication01.Atividades_Raoni
             this.numeroDaSala = numeroDaSala;
             this.disciplina = disciplina;
             this.bloco = bloco;
+        }
+
+        public void imprimirProfessores()
+        {
+            Console.WriteLine("Professores que dão aula para a turma "+this.numeroDaTurma+" :");
+            foreach (Professor professor in professores)
+            {
+                Console.WriteLine(professor.nome);
+            }
         }
 
         public string toString()
@@ -30,20 +40,6 @@ namespace ConsoleApplication01.Atividades_Raoni
                    ", disponivel=" + disponivel +
                    '}';
         }
-
-        public void assistirAula(Professor p)
-        {
-            if (!this.disciplina.Equals(p.disciplina))
-            {
-                Console.WriteLine("Esse é o professor da disciplina errada !!!!\nOu seja a turma está sem aula !!!");
-                this.disponivel = true;
-            }
-            else
-            {
-                Console.WriteLine("A turma está assistindo a aula do professor :"+p.nome+"\nDa materia de : "+p.disciplina);
-                p.lecionando = true;
-                this.disponivel = false;
-            }
-        }
+        
     }
 }
