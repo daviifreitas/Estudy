@@ -1,41 +1,34 @@
 package Raoni.Act01;
 
 public class Professor {
-    private String nome;
-    private String sexo;
-    private String chapa;
-    private String disciplina;
-    private int cpf;
-    private int identidade;
-    private boolean lecionando;
+   private String nome;
+   private String sexo;
+   private String chapa;
+   private int cpf ;
+   private int identidade;
+   private Turma[] turmas;
 
-    public Professor() {
-
-    }
-
-    public Professor(String nome, String sexo, String chapa, int cpf, int identidade, String disciplina) {
+    public Professor(String nome, String sexo, String chapa, int cpf, int identidade) {
         this.nome = nome;
         this.sexo = sexo;
         this.chapa = chapa;
         this.cpf = cpf;
         this.identidade = identidade;
-        this.disciplina = disciplina;
     }
 
-    public String getDisciplina() {
-        return disciplina;
+    public void imprimirTurmas(){
+        System.out.println("O professor "+getNome()+ " da aula para essas turmas :\nCódigos das turmas :");
+        for(Turma turma : turmas){
+            System.out.println(turma.getNumeroDaTurma());
+        }
     }
 
-    public void setDisciplina(String disciplina) {
-        this.disciplina = disciplina;
+    public Turma[] getTurmas() {
+        return turmas;
     }
 
-    public void setLecionando(boolean lecionando) {
-        this.lecionando = lecionando;
-    }
-
-    public boolean getLecionando() {
-        return this.lecionando;
+    public void setTurmas(Turma[] turmas) {
+        this.turmas = turmas;
     }
 
     public String getNome() {

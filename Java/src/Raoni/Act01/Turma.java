@@ -4,18 +4,24 @@ public class Turma {
     private int numeroDaTurma;
     private int numeroDaSala;
     private String disciplina;
-    private String bloco;
-    private boolean disponivel = true;
+    private int bloco;
+    private boolean disponivel;
+    private Professor[] professores;
 
-    public Turma() {
-
-    }
-
-    public Turma(int numeroDaTurma, int numeroDaSala, String disciplina, String bloco) {
+    public Turma(int numeroDaTurma, int numeroDaSala, String disciplina, int bloco, boolean disponivel, Professor[] professores) {
         this.numeroDaTurma = numeroDaTurma;
         this.numeroDaSala = numeroDaSala;
         this.disciplina = disciplina;
         this.bloco = bloco;
+        this.disponivel = disponivel;
+        this.professores = professores;
+    }
+
+    public void imprimirProfessores(){
+        System.out.println("Professores que lecionam aula para essa turma !!!");
+        for(Professor professor : professores){
+            System.out.println(professor.getNome());
+        }
     }
 
     @Override
@@ -24,20 +30,17 @@ public class Turma {
                 "numeroDaTurma=" + numeroDaTurma +
                 ", numeroDaSala=" + numeroDaSala +
                 ", disciplina='" + disciplina + '\'' +
-                ", bloco='" + bloco + '\'' +
+                ", bloco=" + bloco +
                 ", disponivel=" + disponivel +
                 '}';
     }
 
-    public void assistirAula(Professor p) {
-        if (!getDisciplina().equals(p.getDisciplina())) {
-            System.out.println("Esse é o professor da disciplina errada !!!!\nOu seja a turma está sem aula \nEBA!!!!!!!!!!!");
-            setDisponivel(true);
-        } else {
-            System.out.println("A turma está assistindo a aula do professor : " + p.getNome() + "\nDa matéria de " + p.getDisciplina());
-            p.setLecionando(true);
-            setDisponivel(false);
-        }
+    public Professor[] getProfessores() {
+        return professores;
+    }
+
+    public void setProfessores(Professor[] professores) {
+        this.professores = professores;
     }
 
     public int getNumeroDaTurma() {
@@ -64,11 +67,11 @@ public class Turma {
         this.disciplina = disciplina;
     }
 
-    public String getBloco() {
+    public int getBloco() {
         return bloco;
     }
 
-    public void setBloco(String bloco) {
+    public void setBloco(int bloco) {
         this.bloco = bloco;
     }
 
