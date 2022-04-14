@@ -27,7 +27,7 @@ public class Warrior extends Person implements Comands {
     }
 
     @Override
-    public String toString() {
+    public String toString() { // This method print the attributes of object , a classic method
         return "Warrior{" +
                 "weapon='" + weapon + '\'' +
                 ", levelOfweapon=" + levelOfweapon +
