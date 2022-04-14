@@ -55,11 +55,15 @@ public class Guild {
                 System.out.println("----------------------------------------------------------------------------");
                 Arrays.stream(mages).filter(mages -> mages.getMc().equals(MageClass.HUMAN)).forEach(System.out::println);
 
-            } else if (what == 2){
+            }
+
+            else if (what == 2){
                 System.out.println("----------------------------------------------------------------------------");
                 Arrays.stream(mages).filter(mages -> mages.getMc().equals(MageClass.GNOME)).forEach(System.out::println);
 
-            } else if (what == 3){
+            }
+
+            else if (what == 3){
                 System.out.println("----------------------------------------------------------------------------");
                 Arrays.stream(mages).filter(mages -> mages.getMc().equals(MageClass.NIGHT_ELF)).forEach(System.out::println);
             }
@@ -74,11 +78,15 @@ public class Guild {
                 System.out.println("----------------------------------------------------------------------------");
                 Arrays.stream(warrios).filter(warrior -> warrior.getWc().equals(WarriorClass.KNIGHT)).forEach(System.out::println);
 
-            } else if (what ==2){
+            }
+
+            else if (what ==2){
                 System.out.println("----------------------------------------------------------------------------");
                 Arrays.stream(warrios).filter(warrior -> warrior.getWc().equals(WarriorClass.CAVALIER)).forEach(System.out::println);
 
-            } else if (what == 3){
+            }
+
+            else if (what == 3){
                 System.out.println("----------------------------------------------------------------------------");
                 Arrays.stream(warrios).filter(warrior -> warrior.getWc().equals(WarriorClass.DUELIST)).forEach(System.out::println);
             }
