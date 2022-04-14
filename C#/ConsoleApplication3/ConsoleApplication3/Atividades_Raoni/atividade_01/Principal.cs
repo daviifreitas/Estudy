@@ -13,7 +13,6 @@ namespace ConsoleApplication01.Atividades_Raoni
             Professor p4 = new Professor("Gustavo", "Masculino", "Revolução", 2584884, 15515, "Geografia");
 
             Turma t1 = new Turma(12510, 02, "Física", "02");
-
             Professor[] professores = {p1, p2, p3, p4};
             t1.professores = professores;
             

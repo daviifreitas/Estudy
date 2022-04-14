@@ -16,6 +16,8 @@ public class Principal {
         System.out.println("_____________________Elenco de professores____________________");
         t1.imprimirProfessores();
 
+        System.out.println();
+
         Turma[] turmas = {t1, t2};
 
         p1.setTurmas(turmas);
