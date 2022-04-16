@@ -3,7 +3,7 @@ package Raoni.Act02.Classes;
 import Raoni.Act02.Enums.WarriorClass;
 import Raoni.Act02.Interfaces.Comands;
 
-public class Warrior extends Person implements Comands {
+public class Warrior extends Person {
     private String weapon ;
     private int levelOfweapon;
     private String armor;

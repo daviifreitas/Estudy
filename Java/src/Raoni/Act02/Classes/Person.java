@@ -1,6 +1,8 @@
 package Raoni.Act02.Classes;
 
-public class Person {
+import Raoni.Act02.Interfaces.Comands;
+
+public abstract class Person implements Comands {
     private int level;
     private String name ;
     private int life;

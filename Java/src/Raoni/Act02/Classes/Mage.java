@@ -3,18 +3,15 @@ package Raoni.Act02.Classes;
 import Raoni.Act02.Enums.MageClass;
 import Raoni.Act02.Interfaces.Comands;
 
-public class Mage extends Person implements Comands {
+public class Mage extends Person {
     private String staff ;
     private MageClass mc;
 
 
     public Mage(String name, String staff, MageClass mc) {
         super(name);
-
         this.mc = mc ;
-
         this.staff = staff;
-
         setLevel(1);
         setManaAmount(500);
         setLife(100);
