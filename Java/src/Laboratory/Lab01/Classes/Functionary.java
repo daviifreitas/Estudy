@@ -1,5 +1,7 @@
 package Laboratory.Lab01.Classes;
 
+import Laboratory.Lab01.Interfaces.IncomeTax;
+
 public abstract  class Functionary {
     protected String name;
     protected String cpf ;

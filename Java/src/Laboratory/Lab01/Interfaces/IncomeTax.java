@@ -3,6 +3,7 @@ package Laboratory.Lab01.Interfaces;
 import Laboratory.Lab01.Classes.Functionary;
 import Laboratory.Lab01.Classes.Principal;
 import Laboratory.Lab01.Classes.Teacher;
+import Laboratory.Lab01.Classes.Vigilant;
 
 public interface IncomeTax {
     public static void calculateIncomeTax(Functionary funcionario){
@@ -18,6 +19,11 @@ public interface IncomeTax {
         else if (funcionario instanceof Principal){
             double incomeTax = (funcionario.getSalary()*12)*0.1;
             System.out.println("The income tax which will for principal's people is :" +incomeTax +" in dollars ");
+        }
+
+        else if (funcionario instanceof Vigilant){
+            double incomeTax = (funcionario.getSalary() * 12) * 0.05;
+            System.out.println("The income tax about vigilant is : "+incomeTax);
         }
     }
 }
