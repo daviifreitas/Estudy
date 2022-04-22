@@ -3,15 +3,17 @@ package Raoni.Act02.Classes;
 import Raoni.Act02.Enums.MageClass;
 import Raoni.Act02.Enums.WarriorClass;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Guild {
     private int level;
     private int gold;
     private String warName;
-    private Mage[] mages;
-    private Warrior[] warrios;
+    private List<Mage> mages = new ArrayList<>();
+    private List<Warrior> warriors= new ArrayList<>();
 
     public Guild(String name ){
         setLevel(1);
@@ -19,27 +21,13 @@ public class Guild {
         setWarName(warName);
     }
 
-    public Guild(String name , Mage[] mages){
-        setLevel(1);
-        setGold(1000);
-        setWarName(warName);
-        this.mages = mages ;
-    }
 
-    public Guild(String name , Warrior[] warrios){
+    public Guild(String warName, List<Warrior> warriors, List<Mage> mages ){
         setLevel(1);
         setGold(1000);
         setWarName(warName);
-        this.warrios = warrios;
-    }
-
-    public Guild(String name , Mage[] mages, Warrior[] warrios){
-        setLevel(1);
-        setGold(1000);
-        setWarName(warName);
-        this.mages = mages ;
-        this.mages = mages ;
-        this.warrios = warrios;
+        this.warriors = warriors;
+        this.mages = mages;
     }
 
     public void viewMenbers(){
@@ -53,19 +41,19 @@ public class Guild {
 
             if(what == 1){
                 System.out.println("----------------------------------------------------------------------------");
-                Arrays.stream(mages).filter(mages -> mages.getMc().equals(MageClass.HUMAN)).forEach(System.out::println);
+                mages.stream().filter(mages -> mages.getMc().equals(MageClass.HUMAN)).forEach(Mage::status);
 
             }
 
             else if (what == 2){
                 System.out.println("----------------------------------------------------------------------------");
-                Arrays.stream(mages).filter(mages -> mages.getMc().equals(MageClass.GNOME)).forEach(System.out::println);
+                mages.stream().filter(mages -> mages.getMc().equals(MageClass.GNOME)).forEach(Mage::status);
 
             }
 
             else if (what == 3){
                 System.out.println("----------------------------------------------------------------------------");
-                Arrays.stream(mages).filter(mages -> mages.getMc().equals(MageClass.NIGHT_ELF)).forEach(System.out::println);
+                mages.stream().filter(mages -> mages.getMc().equals(MageClass.NIGHT_ELF)).forEach(Mage::status);
             }
         }
 
@@ -76,29 +64,29 @@ public class Guild {
 
             if (what == 1){
                 System.out.println("----------------------------------------------------------------------------");
-                Arrays.stream(warrios).filter(warrior -> warrior.getWc().equals(WarriorClass.KNIGHT)).forEach(System.out::println);
+                warriors.stream().filter(warrior -> warrior.getWc().equals(WarriorClass.KNIGHT)).forEach(Warrior::status);
 
             }
 
             else if (what ==2){
                 System.out.println("----------------------------------------------------------------------------");
-                Arrays.stream(warrios).filter(warrior -> warrior.getWc().equals(WarriorClass.CAVALIER)).forEach(System.out::println);
+                warriors.stream().filter(warrior -> warrior.getWc().equals(WarriorClass.CAVALIER)).forEach(Warrior::status);
 
             }
 
             else if (what == 3){
                 System.out.println("----------------------------------------------------------------------------");
-                Arrays.stream(warrios).filter(warrior -> warrior.getWc().equals(WarriorClass.DUELIST)).forEach(System.out::println);
+                warriors.stream().filter(warrior -> warrior.getWc().equals(WarriorClass.DUELIST)).forEach(Warrior::status);
             }
         }
     }
 
-    public void setMages(Mage[] mages) {
-        this.mages = mages;
+    public List<Mage> getMages() {
+        return mages;
     }
 
-    public void setWarrios(Warrior[] warrios) {
-        this.warrios = warrios;
+    public List<Warrior> getWarriors() {
+        return warriors;
     }
 
     public int getLevel() {

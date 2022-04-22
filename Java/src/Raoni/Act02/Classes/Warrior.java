@@ -26,6 +26,7 @@ public class Warrior extends Person {
         setAp(30);
     }
 
+
     @Override
     public String toString() { // This method print the attributes of object , a classic method
         return "Warrior{" +
