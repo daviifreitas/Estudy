@@ -4,7 +4,7 @@ namespace ConsoleApplication01.Atividades_Raoni
 {
     public class Principal
     {
-        public static void Main(string[] args)
+        public static void Maimn(string[] args)
         {
             Aluno a1 = new Aluno("Francisco","Masculino",12581,022515,02222,"ADS");
             Professor p1 = new Professor("Jose", "Masculino", "Assas livres", 28415655, 02020, "Física");

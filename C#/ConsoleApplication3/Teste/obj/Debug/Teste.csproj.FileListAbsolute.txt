@@ -1,0 +1,6 @@
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/Teste/bin/Debug/Teste.exe
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/Teste/bin/Debug/Teste.pdb
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/Teste/obj/Debug/Teste.csprojAssemblyReference.cache
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/Teste/obj/Debug/Teste.csproj.CoreCompileInputs.cache
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/Teste/obj/Debug/Teste.exe
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/Teste/obj/Debug/Teste.pdb

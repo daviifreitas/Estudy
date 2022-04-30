@@ -43,6 +43,8 @@
         <Compile Include="Atividades_Raoni\atividade_01\Principal.cs" />
         <Compile Include="Atividades_Raoni\atividade_01\Professor.cs" />
         <Compile Include="Atividades_Raoni\atividade_01\Turma.cs" />
+        <Compile Include="Atividades_Raoni\simulado\Person.cs" />
+        <Compile Include="Atividades_Raoni\simulado\Program.cs" />
         <Compile Include="Laboratory\getAndSet\Computer.cs" />
         <Compile Include="Laboratory\getAndSet\Program.cs" />
         <Compile Include="OOP\Aula 36.cs" />
@@ -51,6 +53,9 @@
         <Compile Include="OOP\Aula32.cs" />
         <Compile Include="OOP\Aula34.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Alpha\Revissao" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

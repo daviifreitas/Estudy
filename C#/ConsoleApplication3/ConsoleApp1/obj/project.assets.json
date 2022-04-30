@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v6.0": []
+  },
+  "packageFolders": {
+    "/home/userrr/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/ConsoleApp1/ConsoleApp1.csproj",
+      "projectName": "ConsoleApp1",
+      "projectPath": "/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/ConsoleApp1/ConsoleApp1.csproj",
+      "packagesPath": "/home/userrr/.nuget/packages/",
+      "outputPath": "/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/ConsoleApp1/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/userrr/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net60": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net60": {
+        "targetAlias": "net6.0",
+        "runtimeIdentifierGraphPath": "/usr/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

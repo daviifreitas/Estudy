@@ -1,0 +1,6 @@
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/HerancaePolimorfismo/bin/Debug/HerancaePolimorfismo.exe
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/HerancaePolimorfismo/bin/Debug/HerancaePolimorfismo.pdb
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/HerancaePolimorfismo/obj/Debug/HerancaePolimorfismo.csprojAssemblyReference.cache
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/HerancaePolimorfismo/obj/Debug/HerancaePolimorfismo.csproj.CoreCompileInputs.cache
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/HerancaePolimorfismo/obj/Debug/HerancaePolimorfismo.exe
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/ConsoleApplication3/HerancaePolimorfismo/obj/Debug/HerancaePolimorfismo.pdb

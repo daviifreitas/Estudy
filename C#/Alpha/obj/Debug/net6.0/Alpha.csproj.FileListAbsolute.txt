@@ -1,0 +1,15 @@
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/bin/Debug/net6.0/Alpha
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/bin/Debug/net6.0/Alpha.deps.json
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/bin/Debug/net6.0/Alpha.runtimeconfig.json
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/bin/Debug/net6.0/Alpha.dll
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/bin/Debug/net6.0/Alpha.pdb
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/obj/Debug/net6.0/Alpha.csproj.AssemblyReference.cache
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/obj/Debug/net6.0/Alpha.GeneratedMSBuildEditorConfig.editorconfig
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/obj/Debug/net6.0/Alpha.AssemblyInfoInputs.cache
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/obj/Debug/net6.0/Alpha.AssemblyInfo.cs
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/obj/Debug/net6.0/Alpha.csproj.CoreCompileInputs.cache
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/obj/Debug/net6.0/Alpha.dll
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/obj/Debug/net6.0/refint/Alpha.dll
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/obj/Debug/net6.0/Alpha.pdb
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/obj/Debug/net6.0/Alpha.genruntimeconfig.cache
+/home/userrr/Área de Trabalho/Estudo/Estudy/C#/Alpha/obj/Debug/net6.0/ref/Alpha.dll
