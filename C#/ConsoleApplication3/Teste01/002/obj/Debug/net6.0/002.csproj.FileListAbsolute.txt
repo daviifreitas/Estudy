@@ -1,0 +1,15 @@
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\bin\Debug\net6.0\002.exe
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\bin\Debug\net6.0\002.deps.json
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\bin\Debug\net6.0\002.runtimeconfig.json
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\bin\Debug\net6.0\002.dll
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\bin\Debug\net6.0\002.pdb
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\obj\Debug\net6.0\002.csproj.AssemblyReference.cache
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\obj\Debug\net6.0\002.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\obj\Debug\net6.0\002.AssemblyInfoInputs.cache
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\obj\Debug\net6.0\002.AssemblyInfo.cs
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\obj\Debug\net6.0\002.csproj.CoreCompileInputs.cache
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\obj\Debug\net6.0\002.dll
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\obj\Debug\net6.0\refint\002.dll
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\obj\Debug\net6.0\002.pdb
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\obj\Debug\net6.0\002.genruntimeconfig.cache
+C:\Users\Davi\Desktop\Estudo\Estudy\C#\ConsoleApplication3\Teste01\002\obj\Debug\net6.0\ref\002.dll
