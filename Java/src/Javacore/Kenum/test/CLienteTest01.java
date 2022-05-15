@@ -15,6 +15,9 @@ public class CLienteTest01 {
         TipoCliente tipoCliente = TipoCliente.valueOf("PESSOA_FISICA");
         System.out.println(tipoCliente.relatorio);
         TipoCliente tipoCliente1 = TipoCliente.tipoCLientePornomeRelatorio("Pessoa Física");
+        TipoCliente tipoCliente2 = TipoCliente.tipoCLientePornomeRelatorio("Pessoa jurídica");
+        System.out.println(tipoCliente2);
+        TipoCliente.tipoCLientePornomeRelatorio(tipoCliente2.valor);
         System.out.println(tipoCliente1);
     }
 }
