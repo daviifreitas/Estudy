@@ -14,7 +14,6 @@ class Externa02 {
     }
 }
 public class ClassesInternasEstaticasTeste {
-
     public static void main(String[] args) {
         Externa.Interna teste = new Externa.Interna();
         teste.imprimir();
