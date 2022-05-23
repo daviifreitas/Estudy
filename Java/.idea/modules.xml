@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TesterHibernate01/HibernateTester01.iml" filepath="$PROJECT_DIR$/TesterHibernate01/HibernateTester01.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/TesterHibernate01/TesterHibernate01.iml" filepath="$PROJECT_DIR$/TesterHibernate01/TesterHibernate01.iml" />
     </modules>

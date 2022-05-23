@@ -4,6 +4,14 @@ import javax.persistence.*;
 
 @Entity
 public class Clientes {
+    @Override
+    public String toString() {
+        return "Clientes{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                '}';
+    }
+
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Id
     @Column(name = "id")
