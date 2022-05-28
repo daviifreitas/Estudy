@@ -4,7 +4,7 @@ import Javacore.ZZClambdas.Dominio.Anime;
 import Javacore.ZZClambdas.Service.AnimeComparators;
 
 import java.util.ArrayList;
-import java.util.List;
+import java.util.List; // Como programar em java de maneira eficiênte !!!! 
 import java.util.function.BiFunction;
 import java.util.function.Supplier;
 
@@ -21,5 +21,7 @@ public class methodReferenceTeste04 {
         BiFunction<String ,Integer ,Anime> animeBiFunction1 = Anime::new;
         animeBiFunction1.apply("Super campeões", 36 );
         System.out.println(animeList);
+        List<String> listStrings = new ArrayList<>();
+        listStrings.add("Adicionar valores");
     }
 }
