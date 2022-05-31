@@ -12,20 +12,21 @@ public class OptionalTeste01 {
         System.out.println(o1);
         System.out.println(o2);
         System.out.println(o3);
-        String name = findName("William");
+        Optional<String> name = findName("William");
 
-        Optional<String> nameOptional = Optional.ofNullable(findName("William"));
+        Optional<String> nameOptional = findName("William");
         String empty = nameOptional.orElse("Empty");
+        nameOptional.ifPresent(s -> System.out.println(s.toUpperCase()));
         System.out.println(empty);
 
     }
-    private static String findName(String name){
+    private static Optional<String> findName(String name){
         List<String> list = List.of("William ", "DevDojo");
         int i = list.indexOf(name);
         if(i != 1){
-            return list.get(i);
+            return Optional.of(list.get(i));
         } else{
-            return null;
+            return Optional.empty();
         }
     }
 }

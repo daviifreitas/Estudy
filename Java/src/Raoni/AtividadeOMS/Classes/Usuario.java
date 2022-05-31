@@ -6,14 +6,14 @@ import java.util.Scanner;
 import java.util.function.Consumer;
 
 public class Usuario {
-    private Long cpf ;
+    private Long cpf;
     private int id;
     private String nome;
     private String email;
     private String password;
-    private double longitude ;
+    private double longitude;
     private double latitude;
-    private List<String> listaDeOcorrencias ;
+    private List<String> listaDeOcorrencias;
 
     public Usuario(Long cpf, String nome, String email, String password) {
         Random random = new Random();
@@ -42,6 +42,7 @@ public class Usuario {
     public void adicionarOcorrenciaALista(String ocorrencia){
         this.listaDeOcorrencias.add(ocorrencia);
     }
+
     public void verOcorrencias(){
         for (String listaDeOcorrencia : listaDeOcorrencias) {
             System.out.println(listaDeOcorrencia);
