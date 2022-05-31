@@ -1,6 +1,7 @@
 package Raoni.AtividadeOMS.Classes;
 
 import java.util.List;
+import java.util.Random;
 import java.util.Scanner;
 import java.util.function.Consumer;
 
@@ -13,6 +14,15 @@ public class Usuario {
     private double longitude ;
     private double latitude;
     private List<String> listaDeOcorrencias ;
+
+    public Usuario(Long cpf, String nome, String email, String password) {
+        Random random = new Random();
+        this.cpf = cpf;
+        this.id = random.nextInt(10000);
+        this.nome = nome;
+        this.email = email;
+        this.password = password;
+    }
 
     public void fazerOcorrencia(){
         Scanner input = new Scanner(System.in);
