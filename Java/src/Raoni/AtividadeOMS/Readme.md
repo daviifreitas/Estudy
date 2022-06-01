@@ -28,3 +28,4 @@ como um id colocado na classe Usuário .
 - David Montenegro
 - Bruno Oziel
 - Daniel
+- Thiago Brito
