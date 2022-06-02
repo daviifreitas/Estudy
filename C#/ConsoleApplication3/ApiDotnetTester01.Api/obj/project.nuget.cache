@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xG/K+d63g7A8M28rvh7zZVBuVzPXOxUM7C2IRqEPtz261mQK9rmRtyDLg7Vs7XT9VEBavTVzJ3TquMvDO/BSiw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Api\\ApiDotnetTester01.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}

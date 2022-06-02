@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ApiDotnetTester01.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ApiDotnetTester01.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApiDotnetTester01.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ApiDotnetTester01.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ApiDotnetTester01.Domain/ApiDotnetTester01.Domain.csproj",
+      "msbuildProject": "../ApiDotnetTester01.Domain/ApiDotnetTester01.Domain.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ApiDotnetTester01.Domain >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Davi\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\ApiDotnetTester01.Application.csproj",
+      "projectName": "ApiDotnetTester01.Application",
+      "projectPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\ApiDotnetTester01.Application.csproj",
+      "packagesPath": "C:\\Users\\Davi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Davi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj": {
+              "projectPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
