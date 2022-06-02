@@ -27,5 +27,5 @@ como um id colocado na classe Usuário .
 - Hugo Antunes
 - David Montenegro
 - Bruno Oziel
-- Daniel
+- Daniel Cabral
 - Thiago Brito
