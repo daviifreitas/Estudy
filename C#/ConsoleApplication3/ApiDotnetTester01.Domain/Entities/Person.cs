@@ -9,6 +9,7 @@ public sealed class Person
     public string Document { get; private set; }
     public string Phone { get; private set; }
 
+    public ICollection<Purchase> purchases { get; set; }
     public Person(string document , string nome ,string phone)
     {
     }

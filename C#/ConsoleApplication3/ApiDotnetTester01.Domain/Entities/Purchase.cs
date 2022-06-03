@@ -9,6 +9,7 @@ public class Purchase
     public int ProductId { get; private set; }
     public int PersonId { get; private set; }
     public DateTime Data { get; private set; }
+    public Person Person { get; set; }
     public Product Product { get; set; }
     public Purchase(int productId ,int personId ,DateTime? date, int id)
     {
@@ -23,7 +24,5 @@ public class Purchase
         DomainValidationException.When(!data.HasValue, "Data de compra deve ser informada");
         ProductId = productId;
         Data = data.Value;
-        
-
     }
 }
