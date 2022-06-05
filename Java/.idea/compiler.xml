@@ -12,6 +12,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="HibernateTester01" target="1.8" />
+      <module name="SpringBootTester01" target="1.8" />
       <module name="TesterHibernate01" target="1.8" />
     </bytecodeTargetLevel>
   </component>
