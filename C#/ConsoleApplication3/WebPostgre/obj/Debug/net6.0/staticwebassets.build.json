@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "RzzdoqqCe+JpqvQN13EYyN8hepaEdZeQcud8nF0dHxg=",
+  "Source": "WebPostgre",
+  "BasePath": "_content/WebPostgre",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
