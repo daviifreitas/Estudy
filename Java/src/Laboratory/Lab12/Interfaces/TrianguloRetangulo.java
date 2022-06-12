@@ -1,4 +1,4 @@
-package Laboratory.Lab12.classes;
+package Laboratory.Lab12.Interfaces;
 
 import Laboratory.Lab12.Interfaces.Geometria;
 import Laboratory.Lab12.Interfaces.Retangular;
