@@ -9,13 +9,15 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+@CrossOrigin("*")
+@RequestMapping("/api/employee")
 public class EmployeeControler {
     @Autowired
     private IEmployeeRepository forUseCRUDMethods;
 
-    @RequestMapping(value = "/employee/create",method = RequestMethod.POST)
+    @PostMapping
     public @ResponseBody String createEmployee(@RequestBody EmployeeModel createEmployee){
+
         forUseCRUDMethods.save(createEmployee);
         return Mensagens.getMensagem("Employee create with sucessful !!!");
     }
@@ -31,13 +33,23 @@ public class EmployeeControler {
 
     @RequestMapping(value = "/employee/findAll", method = RequestMethod.GET)
     public @ResponseBody List<EmployeeModel> findAllEmployees(){
+
         return forUseCRUDMethods.findAll();
     }
 
     @RequestMapping(value = "/employee/deleteAll",method = RequestMethod.DELETE)
     public @ResponseBody String deleteAllEmployees(){
+
         forUseCRUDMethods.deleteAll();
         return Mensagens.getMensagem("All employees are delete with sucess !!!");
+    }
+
+    @RequestMapping(value = "/employee/updateEmployee/{id}")
+    public @ResponseBody String updateEmployee(@RequestBody EmployeeModel employeeModel , @PathVariable Integer id){
+        if(forUseCRUDMethods.findById(id).isPresent()){
+            forUseCRUDMethods.save(employeeModel);
+            return Mensagens.getMensagem("Employee updated with sucessful !");
+        } return Mensagens.getMensagem("Your id is invalid !!!");
     }
 
     @RequestMapping(value = "/employee/deleteById/{id}",method = RequestMethod.DELETE)
