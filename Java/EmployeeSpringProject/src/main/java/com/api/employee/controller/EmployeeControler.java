@@ -4,6 +4,7 @@ import com.api.employee.Mensagens.Mensagens;
 import com.api.employee.Repository.IEmployeeRepository;
 import com.api.employee.model.EmployeeModel;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -16,10 +17,12 @@ public class EmployeeControler {
     private IEmployeeRepository forUseCRUDMethods;
 
     @PostMapping
-    public @ResponseBody String createEmployee(@RequestBody EmployeeModel createEmployee){
+    public @ResponseBody ResponseEntity<String> createEmployee(@RequestBody EmployeeModel createEmployee){
 
         forUseCRUDMethods.save(createEmployee);
-        return Mensagens.getMensagem("Employee create with sucessful !!!");
+
+        String messageWhichCreateANewUser = Mensagens.getMensagem("Employee create with sucessful !!!");
+        return ResponseEntity.status(201).body(messageWhichCreateANewUser);
     }
 
     @RequestMapping(value = "/employee/findById/{id}", method = RequestMethod.GET)
@@ -32,9 +35,9 @@ public class EmployeeControler {
     }
 
     @RequestMapping(value = "/employee/findAll", method = RequestMethod.GET)
-    public @ResponseBody List<EmployeeModel> findAllEmployees(){
-
-        return forUseCRUDMethods.findAll();
+    public @ResponseBody ResponseEntity<List<EmployeeModel>> findAllEmployees(){
+        List<EmployeeModel> listOfAllUsers = forUseCRUDMethods.findAll();
+        return ResponseEntity.status(200).body(listOfAllUsers);
     }
 
     @RequestMapping(value = "/employee/deleteAll",method = RequestMethod.DELETE)
@@ -45,11 +48,14 @@ public class EmployeeControler {
     }
 
     @RequestMapping(value = "/employee/updateEmployee/{id}")
-    public @ResponseBody String updateEmployee(@RequestBody EmployeeModel employeeModel , @PathVariable Integer id){
+    public @ResponseBody ResponseEntity<String> updateEmployee(@RequestBody EmployeeModel employeeModel , @PathVariable Integer id){
         if(forUseCRUDMethods.findById(id).isPresent()){
             forUseCRUDMethods.save(employeeModel);
-            return Mensagens.getMensagem("Employee updated with sucessful !");
-        } return Mensagens.getMensagem("Your id is invalid !!!");
+            String messageAboutModifyUser = Mensagens.getMensagem("Employee updated with sucessful !");
+            return ResponseEntity.status(201).body(messageAboutModifyUser);
+        }
+        String messageAboutModifyUser = Mensagens.getMensagem("Your id is invalid !!!");
+        return ResponseEntity.status(201).body(messageAboutModifyUser);
     }
 
     @RequestMapping(value = "/employee/deleteById/{id}",method = RequestMethod.DELETE)
