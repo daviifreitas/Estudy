@@ -8,24 +8,26 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Davi\\.nuget\\packages\\": {}
+    "C:\\Users\\davi.fmelo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Api\\ApiDotnetTester01.Api.csproj",
+      "projectUniqueName": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Api\\ApiDotnetTester01.Api.csproj",
       "projectName": "ApiDotnetTester01.Api",
-      "projectPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Api\\ApiDotnetTester01.Api.csproj",
-      "packagesPath": "C:\\Users\\Davi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Api\\obj\\",
+      "projectPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Api\\ApiDotnetTester01.Api.csproj",
+      "packagesPath": "C:\\Users\\davi.fmelo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Davi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\davi.fmelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -55,8 +57,20 @@
         "warn": true,
         "downloadDependencies": [
           {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          },
+          {
             "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[3.1.25, 3.1.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.1.0, 3.1.0]"
           }
         ],
         "frameworkReferences": {

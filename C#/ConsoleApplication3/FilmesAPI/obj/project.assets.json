@@ -208,24 +208,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Davi\\.nuget\\packages\\": {}
+    "C:\\Users\\davi.fmelo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\FilmesAPI\\FilmesAPI.csproj",
+      "projectUniqueName": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\FilmesAPI\\FilmesAPI.csproj",
       "projectName": "FilmesAPI",
-      "projectPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\FilmesAPI\\FilmesAPI.csproj",
-      "packagesPath": "C:\\Users\\Davi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\FilmesAPI\\obj\\",
+      "projectPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\FilmesAPI\\FilmesAPI.csproj",
+      "packagesPath": "C:\\Users\\davi.fmelo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\FilmesAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Davi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\davi.fmelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

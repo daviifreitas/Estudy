@@ -8,24 +8,26 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Davi\\.nuget\\packages\\": {}
+    "C:\\Users\\davi.fmelo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ConsoleApp1\\ConsoleApp1.csproj",
+      "projectUniqueName": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ConsoleApp1\\ConsoleApp1.csproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ConsoleApp1\\ConsoleApp1.csproj",
-      "packagesPath": "C:\\Users\\Davi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ConsoleApp1\\obj\\",
+      "projectPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ConsoleApp1\\ConsoleApp1.csproj",
+      "packagesPath": "C:\\Users\\davi.fmelo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Davi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\davi.fmelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

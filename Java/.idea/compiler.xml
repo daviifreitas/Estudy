@@ -7,12 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="HibernateTester01" />
         <module name="EmployeeSpringProject" />
+        <module name="Employee" />
+        <module name="HibernateTester01" />
         <module name="TesterHibernate01" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Employee" target="17" />
       <module name="EmployeeSpringProject" target="17" />
       <module name="HibernateTester01" target="1.8" />
       <module name="SpringBootTester01" target="1.8" />
@@ -21,6 +23,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Employee" options="-parameters" />
       <module name="EmployeeSpringProject" options="-parameters" />
     </option>
   </component>

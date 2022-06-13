@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "xG/K+d63g7A8M28rvh7zZVBuVzPXOxUM7C2IRqEPtz261mQK9rmRtyDLg7Vs7XT9VEBavTVzJ3TquMvDO/BSiw==",
+  "dgSpecHash": "7v2om/b+BWrbVBl2K04GrV2Vg/3uYAsqLvZDYKlkUwV+P+kESkcw3dbKA8kakX+6XPw25KZchAohLlmPY/GUTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Api\\ApiDotnetTester01.Api.csproj",
+  "projectFilePath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Api\\ApiDotnetTester01.Api.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Davi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+    "C:\\Users\\davi.fmelo\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\davi.fmelo\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\davi.fmelo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\davi.fmelo\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,33 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\ApiDotnetTester01.Application.csproj": {}
+    "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\ApiDotnetTester01.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\ApiDotnetTester01.Application.csproj": {
+    "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\ApiDotnetTester01.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\ApiDotnetTester01.Application.csproj",
+        "projectUniqueName": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\ApiDotnetTester01.Application.csproj",
         "projectName": "ApiDotnetTester01.Application",
-        "projectPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\ApiDotnetTester01.Application.csproj",
-        "packagesPath": "C:\\Users\\Davi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\obj\\",
+        "projectPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\ApiDotnetTester01.Application.csproj",
+        "packagesPath": "C:\\Users\\davi.fmelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Davi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\davi.fmelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj": {
-                "projectPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj"
+              "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj": {
+                "projectPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj"
               }
             }
           }
@@ -60,22 +62,24 @@
         }
       }
     },
-    "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj": {
+    "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj",
         "projectName": "ApiDotnetTester01.Domain",
-        "projectPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj",
-        "packagesPath": "C:\\Users\\Davi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Davi\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\obj\\",
+        "projectPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\ApiDotnetTester01.Domain.csproj",
+        "packagesPath": "C:\\Users\\davi.fmelo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\davi.fmelo\\IdeaProjects\\Estudy\\C#\\ConsoleApplication3\\ApiDotnetTester01.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Davi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\davi.fmelo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
