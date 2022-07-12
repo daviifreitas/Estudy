@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot2-essentials" />
         <module name="EmployeeSpringProject" />
         <module name="Employee" />
         <module name="HibernateTester01" />
@@ -17,6 +18,7 @@
       <module name="Employee" target="17" />
       <module name="EmployeeSpringProject" target="17" />
       <module name="HibernateTester01" target="1.8" />
+      <module name="springboot2-essentials" target="11" />
       <module name="SpringBootTester01" target="1.8" />
       <module name="TesterHibernate01" target="1.8" />
     </bytecodeTargetLevel>
@@ -25,6 +27,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Employee" options="-parameters" />
       <module name="EmployeeSpringProject" options="-parameters" />
+      <module name="springboot2-essentials" options="-parameters" />
     </option>
   </component>
 </project>

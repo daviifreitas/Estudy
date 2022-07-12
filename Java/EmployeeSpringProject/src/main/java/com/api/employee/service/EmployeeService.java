@@ -2,6 +2,8 @@ package com.api.employee.service;
 
 import com.api.employee.Repository.IEmployeeRepository;
 import com.api.employee.model.EmployeeModel;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -10,9 +12,11 @@ import java.util.List;
 public class EmployeeService {
 
     private IEmployeeRepository repository ;
+    private PasswordEncoder passwordEncoder ;
 
     public EmployeeService(IEmployeeRepository repository ){
         this.repository = repository ;
+        this.passwordEncoder = new BCryptPasswordEncoder();
     }
 
     public List<EmployeeModel> employeeList (){
@@ -20,6 +24,8 @@ public class EmployeeService {
     }
 
     public EmployeeModel createEmployee(EmployeeModel employeeToCreate){
+        String encoder = this.passwordEncoder.encode(employeeToCreate.getName());
+        employeeToCreate.setName(encoder);
         return repository.save(employeeToCreate);
     }
 
@@ -47,5 +53,17 @@ public class EmployeeService {
     public String deleteAllEmployee(){
         repository.deleteAll();
         return "The all employees are deleted !!!!";
+    }
+
+//    public Boolean validarSenha(EmployeeModel employeeToVerificate) {
+//        String password = repository.findById(employeeToVerificate.getId()).get().getName();
+//        Boolean valid = passwordEncoder.matches(employeeToVerificate.getName() ,password);
+//        return valid ;
+//    }
+
+    public Boolean ValidarNome(EmployeeModel employeeToVerificate) {
+        String nome = repository.findById(employeeToVerificate.getId()).get().getName();
+        Boolean valid = nome.equals(employeeToVerificate.getName());
+        return valid ;
     }
 }
